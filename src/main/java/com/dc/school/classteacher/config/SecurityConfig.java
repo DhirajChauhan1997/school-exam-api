@@ -1,7 +1,7 @@
-package com.dc.school.exam.config;
+package com.dc.school.classteacher.config;
 
 
-import com.dc.school.exam.filter.JwtRequestFilter;
+import com.dc.school.classteacher.filter.JwtRequestFilter;
 import com.dc.school.model.User;
 import com.dc.school.service.UserService;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

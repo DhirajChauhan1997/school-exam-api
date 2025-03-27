@@ -1,4 +1,4 @@
-package com.dc.school.exam.config;
+package com.dc.school.classteacher.config;
 
 import com.dc.school.utility.adapter.LocalDateTimeAdapter;
 import com.google.gson.Gson;

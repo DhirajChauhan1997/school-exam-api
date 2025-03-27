@@ -1,4 +1,4 @@
-package com.dc.school.exam.config;
+package com.dc.school.classteacher.config;
 
 
 import org.springframework.beans.factory.annotation.Value;
